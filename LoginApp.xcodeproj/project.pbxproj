@@ -14,6 +14,7 @@
 		A354A9292005D2C900A28CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A354A9272005D2C900A28CDC /* LaunchScreen.storyboard */; };
 		A354A9342005D2CA00A28CDC /* LoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354A9332005D2CA00A28CDC /* LoginAppTests.swift */; };
 		A354A93F2005D2CA00A28CDC /* LoginAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354A93E2005D2CA00A28CDC /* LoginAppUITests.swift */; };
+		A354A94D2005D46800A28CDC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354A94C2005D46800A28CDC /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A354A93A2005D2CA00A28CDC /* LoginAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A354A93E2005D2CA00A28CDC /* LoginAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppUITests.swift; sourceTree = "<group>"; };
 		A354A9402005D2CA00A28CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A354A94C2005D46800A28CDC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A354A9252005D2C900A28CDC /* Assets.xcassets */,
 				A354A9272005D2C900A28CDC /* LaunchScreen.storyboard */,
 				A354A92A2005D2C900A28CDC /* Info.plist */,
+				A354A94C2005D46800A28CDC /* LoginViewController.swift */,
 			);
 			path = LoginApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A354A94D2005D46800A28CDC /* LoginViewController.swift in Sources */,
 				A354A9212005D2C900A28CDC /* ViewController.swift in Sources */,
 				A354A91F2005D2C900A28CDC /* AppDelegate.swift in Sources */,
 			);
@@ -427,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K47XFPHWTJ;
+				DEVELOPMENT_TEAM = 695E8J3HA4;
 				INFOPLIST_FILE = LoginApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.LoginApp;
@@ -442,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K47XFPHWTJ;
+				DEVELOPMENT_TEAM = 695E8J3HA4;
 				INFOPLIST_FILE = LoginApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.LoginApp;
